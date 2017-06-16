@@ -1,0 +1,32 @@
+.nav-wrp .navbar-brand img {
+    max-height: 75px;
+    max-width: 100%;
+}
+
+.nav-sticky .navbar-brand img {
+  max-height: 40px;
+  max-width: 100%;
+}
+
+.nav-links>li>a {
+  font-size: 17px;
+}
+
+.intro-section {
+  border-bottom: none;
+}
+
+.client-section {
+  background-image: url("../images/fb_cover.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.nav-3 .nav-other .btn {
+  font-size: 15px;
+}
+
+.case-study-section {
+  padding-bottom: 50px;
+}
