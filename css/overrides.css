@@ -1,6 +1,6 @@
 .nav-wrp .navbar-brand img {
-    max-height: 75px;
-    max-width: 100%;
+  max-height: 65px;
+  max-width: 100%;
 }
 
 .nav-sticky .navbar-brand img {
@@ -16,11 +16,30 @@
   border-bottom: none;
 }
 
-.client-section {
-  background-image: url("../images/fb_cover.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+.title-sub.small {
+  font-size: 20px;
+}
+
+@media (max-width: 991px) and (min-width: 200px) {
+  .title-sub {
+    font-size: 20px !important;
+  }
+}
+
+.bg-icon-tile {
+  background-size: 78px 125px;
+}
+
+.footer-section .logo {
+  width: 300px;
+}
+
+.bg-icon-tile .overlay {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1997d4+0,0277bd+50,165193+100&0.8+0,0.8+100 */
+  background: -moz-linear-gradient(45deg, rgba(25,151,212,0.8) 0%, rgba(2,119,189,0.8) 50%, rgba(22,81,147,0.8) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, rgba(25,151,212,0.8) 0%,rgba(2,119,189,0.8) 50%,rgba(22,81,147,0.8) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, rgba(25,151,212,0.8) 0%,rgba(2,119,189,0.8) 50%,rgba(22,81,147,0.8) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc1997d4', endColorstr='#cc165193',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
 .nav-3 .nav-other .btn {
